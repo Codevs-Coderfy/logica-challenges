@@ -1,2 +1,2 @@
 # logica-challenges
-Añade aqui tu entorno de trabajo e integra tus challenges en la rama main
+Añade aqui tu entorno de trabajo(Branch) e integra tus challenges en la rama main
