@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla de Multiplicar</title>
+</head>
+<body>
+
+  <!-- Título y subtítulo -->
+  <h1>Generador de Tablas de Multiplicar</h1>
+  <h3>Ingresa un número y muestra su tabla del 1 al 10</h3>
+
+  <!-- Input y botón -->
+  <label for="numero">Número: </label>
+  <input type="number" id="numero" />
+  <button onclick="generarTabla()">Generar</button>
+
+  <!-- Área de salida -->
+  <h2>Resultado:</h2>
+  <pre id="output"></pre>
+
+  <!-- Script con la lógica -->
+  <!-- <script>
+    function generarTabla() {
+      let numero = parseInt(document.getElementById("numero").value);
+      let salida = "";
+
+      // Bucle con if
+      for (let i = 1; i <= 10; i++) {
+        let resultado = numero * i;
+
+        if (resultado > 50) {
+          salida += `${numero} x ${i} = ${resultado} → resultado mayor a 50\n`;
+        } else {
+          salida += `${numero} x ${i} = ${resultado}\n`;
+        }
+      }
+
+      // Mostrar en el campo de salida
+      document.getElementById("output").textContent = salida;
+    }
+  </script> -->
+
+  <!-- logica desde archivo externo -->
+  <script src="./generarTabla.js"></script>
+
+</body>
+</html>
